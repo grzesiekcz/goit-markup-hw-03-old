@@ -1,0 +1,227 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --main-color: #757575;
+  --background-color: #2f303a;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+.navigation__list {
+  list-style-type: none;
+}
+.header__button {
+  background: var(--background-color);
+}
+.button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 875;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+
+  color: #fff;
+}
+
+/* header */
+.navigation__logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+  text-decoration: none;
+}
+.navigation__list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.navigation__list-item:hover,
+.navigation__list-item:focus,
+.navigation__link:hover,
+.navigation__link:focus,
+.header__mailaddress:hover,
+.header__mailaddress:focus,
+.header__phonenumber:hover,
+.header__phonenumber:focus,
+.footer-item:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+.navigation__link:hover,
+.navigation__link:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+.header__mailaddress,
+.header__phonenumber {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--main-);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #fff;
+}
+
+/* end header */
+
+/* main */
+.text-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+
+  letter-spacing: 0.03em;
+}
+
+/* what we do */
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* end wwd */
+
+/* team */
+.team {
+  background: #f5f4fa;
+}
+.team-item {
+  background: #fff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.figcaption {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* end team */
+
+/* end main */
+
+/* footer */
+.footer {
+  background-color: var(--background-color);
+}
+.address {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.714x;
+  letter-spacing: 0.03em;
+
+  color: #fff;
+}
+.footer-item {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.741;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: /rgba(255, 255, 255, 0.6);
+}
+/* end footer */
+
+/* end index */
+
+/* portfolio */
+.modal-btn {
+  background: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #fff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.portfolio {
+  background: #e5e5e5;
+}
+.portfolio-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.portfolio-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.portfolio-fig {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.667;
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
