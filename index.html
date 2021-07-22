@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css" />
   </head>
   <body>
     <header class="header">
@@ -18,12 +19,12 @@
           <h3>
             <a
               class="navigation__logo"
-              href="https://grzesiekcz.github.io/goit-markup-hw-02/"
-              >WebStudio</a
+              href=index.html
+              ><span class="logo-color">Web</span><span class="logo-color-part2">Studio</span></a
             >
           </h3>
           <ul class="navigation__list">
-            <li class="navigation__list-item">Agencja</li>
+            <li class="navigation__list-item"><a class="navigation__list_link" href="#">Agencja</a></li>
             <li>
               <a
                 class="navigation__link"
@@ -32,7 +33,7 @@
                 >Portfolio
               </a>
             </li>
-            <li class="navigation__list-item">Kontakt</li>
+            <li class="navigation__list-item"><a class="navigation__list_link" href="#">Kontakt</a></li>
           </ul>
         </nav>
       </div>
@@ -205,7 +206,11 @@
       </section>
     </main>
     <footer class="footer">
-      <h3 class="navigation__logo">WebStudio</h3>
+      <h3 class="navigation__logo">
+        <a class="navigation__logo"
+              href=index.html
+              ><span class="logo-color">Web</span><span class="logo-color-part2">Studio</span></a>
+          </h3>
       <address>
         <ul class="footer-list">
           <li class="address">m. Warszawa, Aleje Jerozolimskie 21</li>
